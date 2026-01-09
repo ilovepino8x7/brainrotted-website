@@ -18,15 +18,21 @@ p, h1, h2 {
     background-color: green;
 }
 nav {
-    padding: 300px;
+    padding:  200px 0px;
 }
 .button {
-    width: 200px;
-    height: 100px;
+    width: 500px;
+    height: 200px;
     border-radius: 20px;
     background-color: pink;
-    padding: 67px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 100px;
+    margin: 0 auto;
+    display: block;
 }
-
+a {
+    text-decoration: none;
+    font-size: 500%;
+    margin: 0;
+    padding: 0;
+    color: peru;
+}
