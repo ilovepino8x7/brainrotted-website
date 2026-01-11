@@ -6,7 +6,10 @@
     margin: auto;
     padding: 20px;
     border-radius: 30px;
+    min-width: 700px;
+    min-height: 1200px;
 }
+
 body {
     text-align: center;
     background-image: url("donaldo.jpeg");
@@ -14,12 +17,17 @@ body {
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
     color: brown;
 }
-p, h1, h2 {
+
+p,
+h1,
+h2 {
     background-color: green;
 }
+
 nav {
-    padding:  200px 0px;
+    padding: 200px 0px;
 }
+
 .button {
     width: 500px;
     height: 200px;
@@ -29,10 +37,52 @@ nav {
     margin: 0 auto;
     display: block;
 }
+
 a {
     text-decoration: none;
-    font-size: 500%;
+    font-size: 350%;
     margin: 0;
     padding: 0;
     color: peru;
+}
+
+.click-alert {
+    background-image: url("alert-bg.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    display: inline-block;
+    padding: 180px 180px;
+    background-size: 105%;
+}
+
+.click-alert p {
+    background-color: transparent;
+    color: black;
+    font-size: 90%;
+    padding-right: 30px;
+    padding-top: 45px;
+}
+
+figcaption {
+    color: rgb(60, 60, 60);
+    font-size: 0.1px;
+}
+
+figure {
+    margin-top: 230px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.small-button {
+    width: 60px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: pink;
+    padding: 100px;
+    margin: auto;
+    margin-top: -150px;
+    display: block;
+    font-size: 150%;
 }
